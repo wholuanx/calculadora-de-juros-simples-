@@ -1,0 +1,9 @@
+print ("-----seja bem vindo(a) calculadora de juros do Luan-----")
+
+capital_inicial = float (input("Digite o valor inicial de capital"))
+taxa = float (input("Digite a taxa de juros em %"))
+tempo = float (input("Digite o tempo que o dinheiro ficará retido"))
+
+juros = capital_inicial * taxa * tempo
+
+print (juros)
